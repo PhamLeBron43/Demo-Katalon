@@ -1,0 +1,435 @@
+{
+  "keywordFileContentHash": "B7EDA3834B88D4836EE5628798B95AC4",
+  "keywordClasses": [
+    {
+      "name": "mobile.MobileCommon",
+      "keywordMethods": [
+        {
+          "name": "inputDataToTestObject",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: inputDataToTestObject(String sObjPath, String sText, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for inputting a text string to object on a web page\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param sObjPath\t: The element logical name path in the Object Repository\r\n\t * @param sText\t: The text string is input in object\r\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-1\t: The object is disabled\u003c/br\u003e\r\n\t *\t\t\t-2\t: The object is input data not match with typed data\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "inputDataToTestObjectBySelenium",
+          "parameters": [
+            {
+              "name": "objXpath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: inputDataToTestObjectBySelenium(String objXpath, String sText, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for inputting a text string to object on a web page by Selenium\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param objXpath\t: The xpath of element in web page\r\n\t * @param sText\t: The text string is input in object\r\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-1\t: The object is disabled\u003c/br\u003e\r\n\t *\t\t\t-2\t: The object is input data not match with typed data\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "reportToConsole",
+          "parameters": [
+            {
+              "name": "iReturnValues",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "pageName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "stepName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "objName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: reportToConsole(int iReturnValues, String stepName, String objName)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for print report to console\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param iReturnValues\t: The value test step return\r\n\t * @param stepName      : The name of step\r\n\t * @param objName    \t: The name of object\r\n\t *\r\n\t * @return\r\n\t * \t\t\tNone\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "clickToRadioButton",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: clickToRadioButton(String sObjPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for clicked a radio button on a web page\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param sObjPath\t: The element logical name path in the Object Repository\r\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-1\t: The object is disabled\u003c/br\u003e\r\n\t *\t\t\t-3\t: The object already checked\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "clickToCheckBox",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: clickToCheckBox(String sObjPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for clicked a check box on a web page\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param sObjPath\t: The element logical name path in the Object Repository\r\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-1\t: The object is disabled\u003c/br\u003e\r\n\t *\t\t\t-3\t: The object already checked\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "clickToButton",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: clickToButton(String sObjPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for clicked a button on a web page\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param sObjPath\t: The element logical name path in the Object Repository\r\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-1\t: The object is disabled\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "getTextFromTestObject",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sReturnText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: getTextFromTestObject(String sObjPath, String sReturnText, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for getting a text string from object(button, radio button, label,...) on a web page\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param sObjPath\t\t: The element logical name path in the Object Repository\r\n\t * @param sReturnText\t: The parameter contains text after getting\r\n\t * @param iTimeOut\t\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "getTextFromInput",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sReturnText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: getTextFromInput(String sObjPath, String sReturnText, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for getting a text string from object(with html tag name input) on a web page\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param sObjPath\t\t: The element logical name path in the Object Repository\r\n\t * @param sReturnText\t: The parameter contains text after getting\r\n\t * @param iTimeOut\t\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "selectComboBoxItemByIndex",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "itemIndex",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: selectComboBoxItemByIndex(String sObjPath, int itemIndex, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for selected a item from combo box by index on a web page\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param sObjPath\t\t: The element logical name path in the Object Repository\r\n\t * @param itemIndex\t\t: The index index range of the options to select from object. Index starts from 0.\r\n\t * @param iTimeOut\t\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-5\t: The item index typed is lower than 0\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        },
+        {
+          "name": "selectComboBoxItemByValue",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "itemValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Custom keyword name: selectComboBoxItemByValue(String sObjPath, String itemValue, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * General description: Custom keyword is used for select all options that have a value matching the \"value\" argument on a web page\u003c/br\u003e\u003c/br\u003e\r\n\t *\r\n\t * @param sObjPath\t\t: The element logical name path in the Object Repository\r\n\t * @param itemValue\t\t: The value of the options to select from object\r\n\t * @param iTimeOut\t\t: The time for waiting object is displayed on web page\r\n\t *\r\n\t * @return\r\n\t *\t\t\t1\t: The object is input data successful\u003c/br\u003e\r\n\t *\t\t\t0\t: The object is not existence\u003c/br\u003e\r\n\t *\t\t\t-6\t: The item value typed is null\u003c/br\u003e\r\n\t *\t\t\t-4\t: Throw message if there is any other errors\u003c/br\u003e\r\n\t *\r\n\t * @since 05/02/2023\r\n\t *\r\n\t * @author ABA Automation team\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

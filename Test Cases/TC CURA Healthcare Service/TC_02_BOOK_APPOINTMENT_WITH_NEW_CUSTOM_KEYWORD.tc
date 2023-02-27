@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02_BOOK_APPOINTMENT_WITH_NEW_CUSTOM_KEYWORD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95ad1ac5-f0ff-4fe5-b65d-a7db3ed038b1</testCaseGuid>
+</TestCaseEntity>

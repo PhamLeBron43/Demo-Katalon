@@ -1,0 +1,576 @@
+{
+  "keywordFileContentHash": "79C0930559248ED1F59E1A305C0223FD",
+  "keywordClasses": [
+    {
+      "name": "webUICustomKeyword.Common",
+      "keywordMethods": [
+        {
+          "name": "verifyObjectPresent",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: verifyObjectPresent(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify object existence on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object in the Object Repository\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t *\t\t\ttrue if element presents; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "verifyObjectEnabled",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: verifyObjectEnabled(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify object enabled on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object in the Object Repository\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t *\t\t\ttrue if the element is present and clickable; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "verifyObjectChecked",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: verifyObjectEnabled(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify if the given object is checked on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object in the Object Repository\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t *\t\t\ttrue if the element is present and clickable; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "inputDataToTestObject",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: inputDataToTestObject(String sObjPath, String sText, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for inputting a text string to object on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object in the Object Repository\n\t * @param sText\t\t: The text string is input in object\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "printStepMessage",
+          "parameters": [
+            {
+              "name": "sPageNameOrScreen",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sAction",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sObjName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: printStepMessage(String sPageNameOrScreen, String sAction, String sObjName)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for print step message to console\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param sPageNameOrScreen\t: The name of page or screen\n\t * @param sAction      \t\t: The name of action\n\t * @param objName    \t\t: The name of object\n\t *\n\t * @return\n\t * \t\t\tNone\n\t *\n\t * @since 17/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "clickToRadioButton",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: clickToRadioButton(String sObjPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a radio button on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object in the Object Repository\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "clickToCheckBox",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: clickToCheckBox(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a check box on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object in the Object Repository\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "clickToButton",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: clickToButton(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a button on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The represent a web element in the Object Repository\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "getTextFromObject",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: getTextFromObject(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a text string from object(button, radio button, label,...) on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object in the Object Repository\n\t * @param iTimeOut\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tinnerText of the test object\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "getTextFromObjectByInput",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: getTextFromObjectByInput(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a text string from object(with html tag name input) on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t\t: The object in the Object Repository\n\t * @param iTimeOut\t\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tinnerText of the test object\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "selectComboBoxItemByIndex",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sItemIndex",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: selectComboBoxItemByIndex(TestObject objPath, int itemIndex, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for select all items that have a index matching the \"index\" argument on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t\t: The object in the Object Repository\n\t * @param itemIndex\t\t: The index index range of the options to select from object. Index starts from 0.\n\t * @param iTimeOut\t\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "selectComboBoxItemByValue",
+          "parameters": [
+            {
+              "name": "objPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sItemValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: selectComboBoxItemByValue(TestObject objPath, String itemValue, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for select all items that have a value matching the \"value\" argument on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param sObjPath\t\t: The element logical name path in the Object Repository\n\t * @param itemValue\t\t: The value of the options to select from object\n\t * @param iTimeOut\t\t: The time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "selectListViewItem",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "propName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "propValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "selectMenuItem",
+          "parameters": [
+            {
+              "name": "sObjPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "propName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "propValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

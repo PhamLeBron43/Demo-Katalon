@@ -1,0 +1,14 @@
+Run parallel
+Solution 1:
+PC -> run đến đoạn gửi mã OTP -> wait mobile thực thi -> viết otp từ data
+Mobile -> open app -> wait -> get OTP -> lưu vào data
+
+Solution 2:(nếu mỗi lần run clean hết sms liên quan tới OTP xong mới run)
+Mobile -> open app -> loop wait đến khi có mail otp mới -> get OTP -> lưu vào data
+PC -> run đến đoạn gửi mã OTP -> wait mobile thực thi -> viết otp từ data
+
+Run sequesege
+Solution 1:(nếu có thể load lại trang nhập OTP ở lượt run 3)
+PC -> run đến đoạn gửi mã OTP 
+Mobile -> open app -> get OTP -> lưu vào data
+PC -> viết otp từ data

@@ -1,0 +1,5 @@
+- viết theo OOP chạy keyword bằng class bình thường
+- tách hàm ra return tùy theo công dụng hàm rồi print message từng step trước khi thực thi action
+- dynamic
+- verifyClickable là kiểm tra enabled
+- visible và present
