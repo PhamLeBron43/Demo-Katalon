@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "C7AF4BEBCB077E702E8553E0D2C579FB",
+  "keywordFileContentHash": "A34FC7EE9569760B021DA82D86E1F601",
   "keywordClasses": [
     {
-      "name": "webUICustomKeywords.Common",
+      "name": "mobileCustomKeywords.Common",
       "keywordMethods": [
         {
           "name": "verifyObjectPresent",
@@ -34,7 +34,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: verifyObjectPresent(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify object existence on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t *\t\t\ttrue if element presents; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: verifyObjectPresent(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify object existence on a mobile application\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t *\t\t\ttrue if element presents; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "verifyObjectEnabled",
@@ -51,9 +51,22 @@
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
+            },
+            {
+              "name": "iTimeOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: verifyObjectEnabled(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify object enabled on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t *\t\t\ttrue if the element is present and clickable; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: verifyObjectEnabled(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify object enabled on a mobile application\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t *\t\t\ttrue if the element is present and clickable; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "verifyObjectNotChecked",
@@ -85,7 +98,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: verifyObjectNotChecked(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify if the given object is checked on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t *\t\t\ttrue if the element is present and clickable; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: verifyObjectNotChecked(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for verify if the given object is not checked on a mobile application\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t *\t\t\ttrue if the element is present and clickable; otherwise, false\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "inputDataToTestObject",
@@ -130,7 +143,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: inputDataToTestObject(String sObjPath, String sText, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for inputting a text string to object on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param sText\t\t: The text string is input in object\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: inputDataToTestObject(String sObjPath, String sText, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for inputting a text string to object on a mobile application\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param sText\t\t: The text string is input in object\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "printStepMessage",
@@ -175,7 +188,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: printStepMessage(String sPageNameOrScreen, String sAction, String sObjName)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for print step message to console\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param sPageNameOrScreen\t: The name of page or screen\n\t * @param sAction      \t\t: The name of action\n\t * @param objName    \t\t: The name of object\n\t *\n\t * @return\n\t * \t\t\tNone\n\t *\n\t * @since 17/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: printStepMessage(String sPageNameOrScreen, String sAction, String sObjName)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for print step message to console\n\t *\n\t * @param sPageNameOrScreen\t: The name of page or screen\n\t * @param sAction      \t\t: The name of action\n\t * @param objName    \t\t: The name of object\n\t *\n\t * @return\n\t * \t\t\tNone\n\t *\n\t * @since 17/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "clickToRadioButton",
@@ -207,7 +220,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: clickToRadioButton(String sObjPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a radio button on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: clickToRadioButton(String sObjPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a radio button on a mobile application\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "clickToCheckBox",
@@ -239,7 +252,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: clickToCheckBox(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a check box on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: clickToCheckBox(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a check box on a mobile application\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "clickToButton",
@@ -271,7 +284,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: clickToButton(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a button on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The represent a web element in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: clickToButton(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for clicked a button on a mobile application\n\t *\n\t * @param objPath\t: The represent a web element in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "getTextFromObject",
@@ -303,7 +316,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: getTextFromObject(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a text string from object(button, radio button, label,...) on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tinnerText of the test object\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: getTextFromObject(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a text string from object(button, radio button, label,...) on a mobile application\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tinnerText of the test object\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "getTextFromObjectByInput",
@@ -335,10 +348,10 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: getTextFromObjectByInput(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a text string from object(with html tag name input) on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tinnerText of the test object\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: getTextFromObjectByInput(TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a text string from object(with html tag name input) on a mobile application\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tinnerText of the test object\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
-          "name": "selectComboBoxItemByIndex",
+          "name": "selectListItemByIndex",
           "parameters": [
             {
               "name": "objPath",
@@ -380,10 +393,10 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: selectComboBoxItemByIndex(TestObject objPath, int itemIndex, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for select all items that have a index matching the \"index\" argument on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param itemIndex\t\t: The index index range of the options to select from object. Index starts from 0.\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: selectListItemByIndex(TestObject objPath, int itemIndex, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for select item on list view control that have a index matching the \"index\" argument on a mobile application\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param itemIndex\t\t: The index index range of the options to select from object. Index starts from 0.\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
-          "name": "selectComboBoxItemByValue",
+          "name": "selectListItemByLabel",
           "parameters": [
             {
               "name": "objPath",
@@ -425,7 +438,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: selectComboBoxItemByValue(TestObject objPath, String itemValue, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for select all items that have a value matching the \"value\" argument on a web page\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param itemValue\t\t: The value of the options to select from object\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: selectListItemByLabel(TestObject objPath, String itemValue, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for select item on list view control that have a value matching the \"value\" argument on a mobile application\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param itemValue\t\t: The value of the options to select from object\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "selectListViewItem",
@@ -457,7 +470,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: selectListViewItem(TestObject objPath, int iTimeout)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to click an item from listview on the website\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: selectListViewItem(TestObject objPath, int iTimeout)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to click an item from listview on a mobile application\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "selectMenuItem",
@@ -489,7 +502,154 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: selectMenuItem(TestObject objPath, int iTimeout)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to click an item from Menu on the website\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: selectMenuItem(TestObject objPath, int iTimeout)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to click an item from Menu on a mobile application\n\t *\n\t * @param objPath\t\t: The object name in the Object Repository\n\t * @param iTimeOut\t\t: The maximum time for waiting object is displayed on mobile application\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "swipeFromTopToBottom",
+          "parameters": [
+            {
+              "name": "iFrom",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: swipeFromTopToBottom(int iFrom, int iTo)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to swipe Vertical from top to bottom on a mobile application\n\t *\n\t * @param iFrom\t\t: Position ready to swipe \n\t * @param iTo\t\t: Position to end swipe\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "swipeFromBottomToTop",
+          "parameters": [
+            {
+              "name": "iFrom",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: swipeFromBottomToTop(int iFrom, int iTo)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to swipe Vertical from bottom to top on a mobile application\n\t *\n\t * @param iFrom\t\t: Position ready to swipe \n\t * @param iTo\t\t: Position to end swipe\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "swipeFromRightToLeft",
+          "parameters": [
+            {
+              "name": "iFrom",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: swipeFromRightToLeft(int iFrom, int iTo)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to swipe Horizontal from right to left on a mobile application\n\t *\n\t * @param iFrom\t\t: Position ready to swipe\n\t * @param iTo\t\t: Position to end swipe\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "swipeFromLeftToRight",
+          "parameters": [
+            {
+              "name": "iFrom",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iTo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: swipeFromLeftToRight(int iFrom, int iTo)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to swipe Horizontal from left to right on a mobile application\n\t *\n\t * @param iFrom\t\t: Position ready to swipe\n\t * @param iTo\t\t: Position to end swipe\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+        },
+        {
+          "name": "closeTestApp",
+          "parameters": [
+            {
+              "name": "sAppId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Custom keyword name: closeTestApp(String appId)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used to close application\n\t *\n\t * @param appId\t\t: The application ID\n\t *\n\t * @return\n\t * \t\t\tnone\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "getTitleFromDialog",
@@ -521,7 +681,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: getTitleFromDialog (TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a title string text from a dialog\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tThe text in the dialog title\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: getTitleFromDialog (TestObject objPath, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a title string text from a dialog\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The object name in the Object Repository\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on on mobile application\n\t *\n\t * @return\n\t * \t\t\tThe text in the dialog title\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         },
         {
           "name": "verifyTitleFromDialog",
@@ -566,146 +726,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Custom keyword name: verifyTitleFromDialog (TestObject objPath, String sExpectedTitle, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a title string text from a dialog\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The dialog object name in the Object Repository\n\t * @param sExpectedTitle\t: The expected string text of dialog title\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tThe text in the dialog title is the same or not as expected\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
-        },
-        {
-          "name": "verifyMessageFromDialog",
-          "parameters": [
-            {
-              "name": "objPathDialogTitle",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "objPathDialogMessage",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "sExpectedTitle",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "sExpectedMessage",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "iTimeOut",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "int",
-                "unresolvedClassName": "int",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": true,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": "/**\n\t * Custom keyword name: verifyMessageInDialog (TestObject objPathTitle, TestObject objPathMessage, String sExpectedMessage, String sExpectedTitle, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a title string text from a dialog\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPathTitle\t\t: The dialog object name in the Object Repository\n\t * @param objPathMessage\t: The dialog object name in the Object Repository\n\t * @param sExpectedTitle\t: The expected string text of dialog title\n\t * @param sExpectedMessage\t: The expected string text of dialog message\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tThe text in the dialog message is the same or not as expected\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t * \n\t * @Note: If The title of dialog or message is icon, then parameter: sExpectedTitle or sExpectedMessage are passed with value: null.\n\t */"
-        },
-        {
-          "name": "verifyMessageFromDialog_2",
-          "parameters": [
-            {
-              "name": "listObjPath",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.util.List",
-                "unresolvedClassName": "List",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [
-                  {
-                    "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                    "unresolvedClassName": "TestObject",
-                    "isArray": false,
-                    "isGnericsPlaceHolder": false,
-                    "hasImmutableClassName": false,
-                    "genericsTypes": [],
-                    "errorOnParsing": false
-                  }
-                ],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "sExpectedTitle",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "sExpectedMessage",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "iTimeOut",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "int",
-                "unresolvedClassName": "int",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": true,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": "/**\n\t * Custom keyword name: verifyMessageInDialog (List \u003cTestObject\u003e lisObjPath, String sExpectedTitle, String sExpectedMessage, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a title string text from a dialog\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param lisObjPath\t\t: The list of object name in the Object Repository\n\t * @param sExpectedTitle\t: The expected string text of dialog title\n\t * @param sExpectedMessage\t: The expected string text of dialog message\n\t * @param iTimeOut\t\t\t: The maximum time for waiting object is displayed on web page\n\t *\n\t * @return\n\t * \t\t\tThe text in the dialog message is the same or not as expected\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t *\n\t * @Note: If The title of dialog or message is icon, then parameter: sExpectedTitle or sExpectedMessage are passed with value: null.\n\t */"
+          "javadoc": "/**\n\t * Custom keyword name: verifyTitleFromDialog (TestObject objPath, String sExpectedTitle, int iTimeOut)\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * General description: Custom keyword is used for getting a title string text from a dialog\u003c/br\u003e\u003c/br\u003e\n\t *\n\t * @param objPath\t: The dialog object name in the Object Repository\n\t * @param sExpectedTitle\t: The expected string text of dialog title\n\t * @param iTimeOut\t: The maximum time for waiting object is displayed on on mobile application\n\t *\n\t * @return\n\t * \t\t\tThe text in the dialog title is the same or not as expected\n\t *\n\t * @since 05/02/2023\n\t *\n\t * @author ABA Automation team\n\t */"
         }
       ]
     }

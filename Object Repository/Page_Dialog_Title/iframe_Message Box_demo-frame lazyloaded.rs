@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe_Message Box_demo-frame lazyloaded</name>
    <tag></tag>
-   <elementGuidId>937642fc-c984-4e6a-a7e7-79d5703962ae</elementGuidId>
+   <elementGuidId>d29c5843-2540-4acc-acda-aeb17f54b7c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>1a21e65a-9a3b-4b1f-936e-e2b5ccd0761a</webElementGuid>
+      <webElementGuid>89f541cd-7ad6-480b-81a4-0a827c41b357</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>width</name>
       <type>Main</type>
       <value>700</value>
-      <webElementGuid>80fec4d5-1628-453b-8b14-330e89a25908</webElementGuid>
+      <webElementGuid>36db8c8d-5d64-4fe4-b09c-e7bfeac8153c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>height</name>
       <type>Main</type>
       <value>500</value>
-      <webElementGuid>34712f35-02d3-4ade-ac3b-71c9662f84a2</webElementGuid>
+      <webElementGuid>ac05e50d-5203-4796-bc18-5267a4d242bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-src</name>
       <type>Main</type>
       <value>../../demoSite/practice/dialog/modal-message.html</value>
-      <webElementGuid>1a304200-ec19-41e5-a9b1-d41bef574a47</webElementGuid>
+      <webElementGuid>a8151603-c41f-4ab7-9a80-79252ae95d4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>demo-frame lazyloaded</value>
-      <webElementGuid>5acf86e5-b0f1-42bb-9c2a-7abae17960ef</webElementGuid>
+      <webElementGuid>93050c16-a85e-49ea-9870-0ac5ac5a5e64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>src</name>
       <type>Main</type>
       <value>data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==</value>
-      <webElementGuid>1901d470-4dd1-4456-8428-4d0fddc046cd</webElementGuid>
+      <webElementGuid>ae5e230c-2d4c-4029-b938-3f1f5fe5cab9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;post-2663&quot;)/div[@class=&quot;twelve columns&quot;]/div[@class=&quot;newtabs horizontal&quot;]/div[@class=&quot;resp-tabs-container&quot;]/div[@class=&quot;single_tab_div resp-tab-content resp-tab-content-active&quot;]/p[1]/iframe[@class=&quot;demo-frame lazyloaded&quot;]</value>
-      <webElementGuid>799acfaf-1e30-418a-a52f-21bf9425c11b</webElementGuid>
+      <webElementGuid>320fef38-acae-42a7-83e5-30361317059b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='post-2663']/div[2]/div/div/div[2]/p/iframe</value>
-      <webElementGuid>f65ba772-b959-4fa4-bcef-4b6d0049cf19</webElementGuid>
+      <webElementGuid>034c9127-82bc-4ede-b8ad-38889396bc8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/p/iframe</value>
-      <webElementGuid>078b4521-791f-4188-a3bb-f6f18beb3489</webElementGuid>
+      <webElementGuid>8ce930b0-6150-46a2-a720-a4934f8aa924</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@src = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==']</value>
-      <webElementGuid>a4acd663-7f5c-4a9c-8016-1d5e9b600b03</webElementGuid>
+      <webElementGuid>f9405208-f556-4ce7-9d75-c5bd3386cc30</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

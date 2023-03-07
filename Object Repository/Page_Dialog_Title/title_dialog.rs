@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Download complete</name>
+   <name>title_dialog</name>
    <tag></tag>
-   <elementGuidId>435e71bd-6dbe-4009-989e-f4ab127c26a8</elementGuidId>
+   <elementGuidId>cddaa085-cb21-4e8a-9e02-bb21d35b9a65</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5c51b3f5-113b-49b6-8062-2e268ba8546d</webElementGuid>
+      <webElementGuid>e1bfde1e-8724-4143-92c6-14c05a6f1981</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ui-id-1</value>
-      <webElementGuid>f34b73fe-ea80-49b3-b71e-91663cc61b25</webElementGuid>
+      <webElementGuid>3e055925-0691-478e-9926-c1f4c5cabca8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-dialog-title</value>
-      <webElementGuid>ac6b0914-ddb2-47f3-aefd-1277a5ebcc62</webElementGuid>
+      <webElementGuid>345dcab9-1ec3-4a23-a5f2-f51669aca9d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Download complete</value>
-      <webElementGuid>57b7ea0a-c196-437e-8bee-c319e0624c57</webElementGuid>
+      <webElementGuid>8036cfd6-5f03-4226-89a7-dda39ada0dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ui-id-1&quot;)</value>
-      <webElementGuid>6bae43e3-1c75-483a-8f6b-9fa896039eee</webElementGuid>
+      <webElementGuid>49588fa7-a71c-492f-a757-c9f72b9c94ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Dialog Boxes Testing Sites  Dummy Site_5bda98/iframe_Message Box_demo-frame lazyloaded</value>
-      <webElementGuid>16fa4330-cc36-48de-a1d8-72419157caaf</webElementGuid>
+      <value>Object Repository/Page_Dialog_Title/iframe_Message Box_demo-frame lazyloaded</value>
+      <webElementGuid>fdcf6aa8-b3bd-4916-941a-6a32df1b59ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='ui-id-1']</value>
-      <webElementGuid>06a3e982-2ef1-47d3-9c86-74e18cf7540f</webElementGuid>
+      <webElementGuid>c1b519b4-5ef5-4dcf-9f4b-51339a174934</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'ui-id-1', '&quot;', ')')])[1]/following::span[1]</value>
-      <webElementGuid>500cbe7b-0c96-4865-a652-b06707996b56</webElementGuid>
+      <webElementGuid>5923e94a-d191-410a-8c7f-619e6058d157</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='buttons'])[1]/following::span[1]</value>
-      <webElementGuid>78c5bf58-9a2c-467a-b6c5-a852b6c0109e</webElementGuid>
+      <webElementGuid>66f951a4-fc28-4404-9527-f907652440a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::span[1]</value>
-      <webElementGuid>1326df94-fd8c-4105-9e73-1d2261e3712e</webElementGuid>
+      <webElementGuid>9138981e-3073-433f-b093-5e3772749c38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::span[4]</value>
-      <webElementGuid>425e8b73-249e-4a5a-b182-119640171820</webElementGuid>
+      <webElementGuid>b05afbbe-1aca-40a8-b2ac-ccdf956b899a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Download complete']/parent::*</value>
-      <webElementGuid>f4119f41-f8cd-4f09-9d5d-679660e24b70</webElementGuid>
+      <webElementGuid>2bf4d761-0d91-4356-b53a-d1cff65a9dce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>207abb3d-3bbc-4d1e-9939-b5eb01abcff6</webElementGuid>
+      <webElementGuid>6dd7fe56-2bc5-4bb6-b073-d47f1d52bc1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = 'ui-id-1' and (text() = 'Download complete' or . = 'Download complete')]</value>
-      <webElementGuid>8506e5d8-de71-4f70-8018-312188e7137f</webElementGuid>
+      <webElementGuid>6b5ee81a-1b38-4661-8fdd-de1281d15108</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

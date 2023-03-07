@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Message Box</name>
+   <name>button_Message Box</name>
    <tag></tag>
-   <elementGuidId>2071bfe2-5d27-4a47-ae3d-4f0536b44c0d</elementGuidId>
+   <elementGuidId>89bd9b37-6306-4e79-b50f-912e01cf2a0b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>2239929d-9b22-4274-802f-e441eb8215e0</webElementGuid>
+      <webElementGuid>1854d766-8969-40c3-9153-9f98b6efdec4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,15 @@
       <name>id</name>
       <type>Main</type>
       <value>Message Box</value>
-      <webElementGuid>ecce6da4-4a36-40f8-86b7-7b075e73cd45</webElementGuid>
+      <webElementGuid>b8657c06-c95a-4a2b-adc8-b0af977fff8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>resp-tab-item</value>
-      <webElementGuid>5e08ef4f-092f-4f71-bf62-adb4fe04bc61</webElementGuid>
+      <value>resp-tab-item resp-tab-active</value>
+      <webElementGuid>80bb9948-7bcd-41c7-a752-a7a57ab2d718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>tab_item-1</value>
-      <webElementGuid>687018f7-f934-450a-85aa-0772e7ff3f99</webElementGuid>
+      <webElementGuid>a0db8f2a-520f-48a4-b833-1bfd45a7d927</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>1d4deea0-a4e2-41c3-a078-8301dcd03623</webElementGuid>
+      <webElementGuid>4f2ef3d8-fcb5-4ba3-9d05-b9eeaf9430b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Message Box</value>
-      <webElementGuid>1dc61426-60f4-48a4-b22a-f5198d162001</webElementGuid>
+      <webElementGuid>87f6f3db-f0e5-431d-8a8f-92dec287dd91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Message Box&quot;)</value>
-      <webElementGuid>30a5903c-caaa-4c56-8e2b-16ea851138ed</webElementGuid>
+      <webElementGuid>ae15734f-aa87-4f54-8d23-3865539b74b4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='Message Box']</value>
-      <webElementGuid>93833f8f-61b2-4146-a5d0-2f495219b9db</webElementGuid>
+      <webElementGuid>8df9cb79-27d8-4cc5-bb89-2c91fb1a8795</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='post-2663']/div[2]/div/ul/li[2]</value>
-      <webElementGuid>ca4df1a2-55c2-452c-aeca-2ed1f8406df0</webElementGuid>
+      <webElementGuid>940617f0-36f5-40fc-b100-ae807aeda526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Form'])[1]/following::li[1]</value>
-      <webElementGuid>80cc7de6-e67a-4a05-87bd-5d7c6bf45e08</webElementGuid>
+      <webElementGuid>541096bd-def9-453c-b11a-546e5cdda0fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AngularJS Protractor Practice Site'])[3]/following::li[2]</value>
-      <webElementGuid>acd12802-ce4d-46e6-8cae-d3736c30eaa1</webElementGuid>
+      <webElementGuid>75b6c0ab-4508-4b48-84ec-7e53ebd7bd4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation Box'])[1]/preceding::li[1]</value>
-      <webElementGuid>a49f0ef4-24ba-4a97-a875-0c68d0ff2279</webElementGuid>
+      <webElementGuid>206e0730-eddb-482d-91b0-77941b0fae0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Form'])[2]/preceding::li[2]</value>
-      <webElementGuid>fb432da0-da5f-4504-ba19-6ef39474f989</webElementGuid>
+      <webElementGuid>93cc37b0-3e7f-4450-b8fd-011f6db52c56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Message Box']/parent::*</value>
-      <webElementGuid>2aabc840-2e64-4cbf-98e0-d797284630a0</webElementGuid>
+      <webElementGuid>46b17679-8c78-4bd3-bd01-b014a3823bf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/ul/li[2]</value>
-      <webElementGuid>e9c00e6b-df41-4b2f-b153-24b7b4713548</webElementGuid>
+      <webElementGuid>f8c3826e-7ef3-4cea-9998-b3995832c2a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'Message Box' and (text() = 'Message Box' or . = 'Message Box')]</value>
-      <webElementGuid>400b28f9-d949-47a1-859f-9e792013e1ca</webElementGuid>
+      <webElementGuid>2c75ce7f-af94-4ce1-88c9-bfba5a74d4b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
